@@ -1,0 +1,36 @@
+#search{
+    float: right;
+}
+div{
+    float: left;
+    margin: 3%;
+}
+button{
+
+margin: 5px;
+border-radius: 8px;
+background-color: purple;
+color: white;
+font-size: 28px;
+
+}
+body{
+    background-color: pink;
+}
+
+#gifs{
+
+    box-sizing: border-box;
+
+    width: 70%;
+
+}
+.gifs::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  img{
+      width: 300px;
+  }
